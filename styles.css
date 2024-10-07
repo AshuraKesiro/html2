@@ -1,0 +1,163 @@
+ * { 
+     margin : 0;
+    padding : 0;
+    box-sizing:border-box; 
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffe6f2;
+    color: #444;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url('toy-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero .btn {
+    background-color: #ff4d94;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.hero .btn:hover {
+    background-color: #ff3385;
+}
+
+.about, .toys, .info, .socials {
+    padding: 50px;
+    text-align: center;
+}
+
+.about h2, .toys h2, .info h2, .socials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+    color: #ff3385;
+}
+
+.about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.toy-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.toy {
+    background-color: #fff0f5;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.toy:hover {
+    transform: scale(1.05);
+}
+
+.toy img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.toy h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #ff4d94;
+}
+
+.toy p {
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.buy-btn {
+    background-color: #ff4d94;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.buy-btn:hover {
+    background-color: #ff3385;
+}
+
+.info ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.info ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    background-color: #ff4d94;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.instagram:hover {
+    background-color: #e1306c;
+}
+
+.facebook:hover {
+    background-color: #3b5998;
+}
+
+.twitter:hover {
+    background-color: #1da1f2;
+}
+
+footer {
+    background-color: #ff4d94;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
